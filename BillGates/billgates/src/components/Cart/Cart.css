@@ -1,0 +1,38 @@
+.carts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.carts h2 {
+  font-size: 2rem;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  background-color: beige;
+  justify-content: space-between;
+  line-height: 0.1;
+}
+
+.cart p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.totals {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 72%;
+  font-size: 1.5rem;
+  line-height: 0.4rem;
+  font-weight: 600;
+  border-top: 1px solid black;
+}

@@ -1,0 +1,22 @@
+.price {
+  width: 100%;
+  min-height: 10vh;
+  background: linear-gradient(
+    0deg,
+    rgba(133, 221, 37, 1) 0%,
+    rgba(29, 183, 62, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.price h1 {
+  font-size: 3rem;
+  line-height: 0.5;
+  color: white;
+  font-weight: 600;
+}
